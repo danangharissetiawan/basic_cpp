@@ -13,20 +13,17 @@ int top=1;
 
 int full(int x) {
 	if(x>maks)					//jika top diatas maks
-	{
 		cout<<"Stack is Full...";
 		return 1;
-	}
-    return maks;
+    // return maks;
 }
 
 int empty(int x) {
 	if(x==1)
-	{
 		cout<<"stack is Empty...";
 		return 1;
-	}
-    return 0;
+	
+    // return 0;
 }
 
 void push(int x)
